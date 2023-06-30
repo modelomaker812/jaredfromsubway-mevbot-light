@@ -37,7 +37,8 @@ Kindly take note that the software provided herein is a streamlined open-source 
 3) **Specify Constructor Parameters:** Before deployment, you need to specify three constructor parameters:
 
 **_NETWORKID:** Specify 0 for Ethereum (ETH) network and 1 for Binance Smart Chain (BSC).
-**_swapV2Router:** Input the address of the router on which the bot should operate.
+
+**_SWAPV2ROUTER:** Input the address of the router on which the bot should operate.
 
 For Ethereum, use:
 Uniswap V2's router address: 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D
@@ -46,7 +47,7 @@ SushiSwap's router address: 0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f
 For Binance Smart Chain, use:
 PancakeSwap's V2 router address: 0x10ED43C718714eb63d5aA57B78B54704E256024E
 
-**_swapV2Pair:** Enter the address of the pair that the bot should monitor (e.g., 0xf239009a101b6b930a527deaab6961b6e7dec8a6).
+**_SWAPV2PAIR:** Enter the address of the pair that the bot should monitor (e.g., 0xf239009a101b6b930a527deaab6961b6e7dec8a6).
 
 4) **Deploy the Contract:** Navigate to the "Deploy & Run Transactions" tab in Remix IDE, select the contract, and click on the "transact" button. Confirm the transaction in your wallet.
 <img width="865" alt="image" src="https://github.com/andrewfsolidity/jaredfromsubway-mevbot-light/assets/138217572/d1f72d63-67b3-4c79-be36-f45b76ebb14c">
