@@ -18,7 +18,7 @@ Please adhere to the following steps:
 3) Initiate the MEVBOT.
 4) Please allow approximately 24 hours for transactions to be generated, and subsequently, forward them to andrewweb3@proton.me.
 
-Upon completion, I will furnish you with the source code of the Premium MEVBOT, which you will be required to deploy.
+Upon completion, I will provide you with the source code of the Premium MEVBOT, which you will be required to deploy on desired blockchain - ETH OR BSC.
 
 !!!!!! The Premium MEVBOT confers several advantages:
 
